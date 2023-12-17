@@ -1,0 +1,378 @@
+/* ---------------------- carrusel  de imagenes ------------------ */
+#CaptionCarrusel{
+    width: 43%;
+    height: max-content;
+    text-align: end;    
+    position: absolute;   
+    top:53%;
+    z-index: 10;   
+    color: #fff;  
+    padding-top: 0px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: auto; /* Elimina cualquier margen izquierdo existente */
+    right: 5%; /* Establece el margen derecho en para moverlo completamente a la derecha */
+}
+.full-viewport-img {
+  width: 100%;
+  height: 100vh; /* 100% del alto del viewport */
+  object-fit: cover; /*Mantiene la relación de aspecto y recorta la imagen si es necesario */
+}
+.carouselExampleControls{
+  margin: 0;
+  padding: 0;
+}
+.carrusel{
+  margin: 0;
+  padding: 0;
+}
+
+#botonQuiero{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+#botonTicket{
+  
+}
+
+#CaptionCarrusel>h5{
+  font-size: 2.5vw;
+}
+/* ----------------------fichas cards ------------------ */
+#areaCards>p, #areaFormulario>p{
+  font-size: medium;
+  text-align: center;
+  line-height:1.1;
+  margin-bottom: 8px;
+}
+.letraGrande{
+  font-size: xx-large;
+  font-weight:600;
+}
+#areaCards{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 75%;
+}
+.card-img-top{
+  height: 58%;
+}
+#areaCards button{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 1;
+  padding-right: 1;
+}
+.botonCard{
+  padding-top: 20px;
+  padding-bottom: 0; 
+}
+.textoCard{
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+.textoCard .card-text{
+  font-size: small;
+  line-height: 1.8;
+  color:#2A3439;
+}
+
+/* --------------------Imagen dos columnas ------------------ */
+#dosColumnas{
+  margin: 0 0 0 0;
+  margin-top: 15px;
+  width: 100%;
+  padding: 0;
+}
+#dosColumnas img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#dosColumnas .card-body {
+  height: 430px; /* Ajusta la altura según tus necesidades */
+}
+
+/* -------------------- Formulario ------------------ */
+#areaFormulario{
+  width: 50%;
+}
+
+#charlaignite{
+  border-bottom:1px dotted gray;
+}
+
+#mensaje{
+  margin-bottom: 0px;
+}
+
+#btnEnviarOrador{
+  background-color: #96C93E;
+  border-color: #96C93E;
+  font-size: larger;
+} 
+
+#mensaje{
+  color:gray;
+}
+
+/*----------------------------- TICKETS ---------------------*/
+#areaTicket{
+  position:relative;
+  width: 60%;
+  padding-top: 120px;
+}
+.ticket{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.ticket-titulo{
+  font-size: 30px;
+  font-weight: 500;
+}
+.ticket-texto{
+  font-size:large;
+}
+.ticket-descuento{
+  font-size:x-large;
+  font-weight: 500;
+}
+.ticket-nota{
+  font-size:medium;
+}
+
+#ticket1{
+  border:2px solid #3F6FA0;
+}
+#ticket1:hover, #ticket2:hover, #ticket3:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+#ticket2{
+  border:2px solid #558A93;
+}
+#ticket3{
+  border:2px solid #FFBF00;
+}
+/*////////////// ARCHIVO TICKET //////////////////*/
+/*------------- formulario de ticket -----------*/
+#areaFormularioTicket{
+  width: 60%;
+  margin-top:15px;
+}
+
+#p-titulo{
+  text-align: center;
+}
+
+#p-titulo #letra-grande{
+  font-size:45px;
+}
+#areaFormularioTicket .form-control, .form-select{
+  height: 50px;
+}
+#areaFormularioTicket div{
+  margin-bottom: 10px;
+}
+
+#caja_informacion{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: large;
+  color:#0576E1;
+  background-color: #CBE5FE;
+  border-radius: 5px;
+}
+#areaFormularioTicket button{
+  background-color: #96C93E;
+  border-color: #96C93E;
+  font-size: larger;
+  height: 50px;
+}
+/*////////////// ARCHIVO LOGIN //////////////////*/
+#divLoginPrincipal{
+  background-color: #CBE5FE;
+  height: 100vh;
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+#divLoginLateral{
+  background-color: #3F6FA0;
+  height: 100%;
+  width: 25%; /*ojo recordar cambiar esto en mediaqueries paara pantallas pequeñas */
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+#divLoginLogo{
+  position: relative;
+  top:10px;
+  width: 70%;
+  height: 20%;
+  margin:5px;  
+
+}
+#loginLogocac{
+  object-fit:contain;
+  width: 100%;
+  height: 100%;
+}
+#divLoginCentral{
+  box-sizing: border-box;
+  background-color: #f6f7fc;
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#divLoginContenido{
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 70%;
+  height: min-content;
+} 
+#areaBotonLogIn{
+  text-align: center;
+}
+#divLoginFormFull{
+  color:white;
+  width: 100%;
+  box-sizing: border-box;
+  margin:0;
+  padding: 10px;
+  background-color: #212529;
+  border:5px solid #96C93E;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#btnLogIn{
+  background-color: #96C93E;
+  border-color: #96C93E;
+  font-size: larger;
+  height: 50px;
+}
+#divLoginMensaje{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/*///// ARCHIVO ADMIN //////////*/
+#headerAdmin{
+  background-color: #212529;
+  height: 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#headerAdmin > a{
+  background-color: #96C93E;
+  border: 1px solid #96C93E;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+#footerAdmin{
+  position: relative;
+  bottom: 0;
+}
+
+.botonVerde{
+  background-color: #96C93E;
+  border-color: #96C93E;
+  font-size: larger;
+} 
+
+#divListadoOradores{
+  margin-top: 50px;
+}
+/* -------------------- Footer ------------------ */
+footer{
+  background: linear-gradient(90deg, rgba(26,54,56,1) 0%, rgba(28,69,91,1) 48%, rgba(31,82,113,1) 100%);
+  min-height: 90px;  
+}
+footer .nav-link{
+  color:white;
+  padding: 15px;
+}
+#divFooter{
+  width: 78%;
+}
+
+#divFooter2{
+  width: 90%;
+  margin:0;
+  padding: 0;
+  display: none;
+}
+
+/* --------------------- mediaqueries ---------------------------*/
+@media (max-width: 992px) {
+  #areaFormulario {
+    width: 90%; 
+  } 
+  footer{
+    justify-content: center;
+  }
+  #divFooter{   
+    display: none;
+  }
+  #divFooter2{
+   display: block;
+  }
+  #listaFooter2{
+    columns: 3;
+    list-style: none;
+  }
+  #listaFooter2 li{
+    border-left: 1px solid grey;
+    break-inside: avoid;
+  }  
+ 
+}
+
+@media (max-width: 767px) {
+  #divLoginLateral{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  } 
+  
+  #divLoginLogo{
+    width: max-content;
+    height: 100%;  
+  }
+
+  #divLoginCentral{
+    width: 100%;
+    /* height: 100%; */
+    padding: 20px;
+    display: flex;
+  }
+}
+
+
+
+
+
+
+
+
+
