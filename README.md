@@ -1,1 +1,1 @@
-Nota: usuario y clave login: mariana y 12345
+Nota: usuario y clave login: sergou y 12345
